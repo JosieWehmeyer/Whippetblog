@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Whippetblog</title>
+  <!-- Fügen Sie hier den Bootstrap-CDN-Link ein oder verwenden Sie Ihre lokale Bootstrap-Datei -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"> 
+
+ <link rel="stylesheet"
+href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet"
+href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet"
+href="styles.css">
+
+</head>
+<body>
+
+
+ 
+
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <div id="splash" class="animated-splash">
+      <div class="curtain">
+          <div class="splash-content">
+              
+              <h1 class="animated-title">Willkommen beim Whippetblog!</h1>
+              <div class="Logoscreen">
+              <img src="Logo2.jpg" alt="06" width="400" height="400">
+            </div>
+          </div>
+          <div class="additional-splash-effects"></div>
+      </div>
+  </div>
+  
+          
+          
+      </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/splash-screen@4.0.1/dist/splash-screen.min.js">
+    </script>
+    <script src="app.js">
+    </script>
+
+
+
+<script>
+    
+document.addEventListener("DOMContentLoaded",
+function () {
+setTimeout(function () {
+    document.getElementById("preloader")
+    .style.display = "none";
+    setTimeout(function () 
+    {
+        document.getElementById("splash")
+        .style.display = "none";
+        document.getElementById("content")
+        .style.display = "block";
+        addLiveAnimations();
+    }, 5000);
+}, 2000);
+});
+
+</script>
+
+
+  <div id="backroundcolor">
+    <header id="Kopfzeile">
+      <img src="Logo2.jpg" alt="06" width="200" height="200">
+      <br>
+      <h3>Whippetblog</h3>
+    </header>
+  </div>
+
+
+<div class="gesamt">
+<div class="container">
+
+
+<div class="row"></div>
+<div class="col-md-4"></div>
+
+
+
+<!-- Navbar -->
+
+
+
+<nav>
+  <div id="menu_button_wrapper">
+      <div id="menu_button">
+          Menu&nbsp;&nbsp;
+          <div id="hamburger">
+            <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+      <div class="clearfix"></div>
+  </div>
+  
+  <ul id="menu_list">
+      <li class="current_page"><a href="#">Home</a></li>
+      <li><a href="Whippet.html">Whippet</a></li>
+      <li><a href="Vor- und Nachteile.html">Vor- und Nachteile</a></li>
+      
+  </ul>
+</nav>
+
+<!-- Fügen Sie weitere Bilder nach Bedarf hinzu -->
+  <br>
+<h1 class="Ueberschrift">Willkommen auf meinem Blog!</h1>
+
+<p>Mein Blog beinhaltet verschiedene Themen, darunter der Whippet als Hunderasse und was es bei der Erstausstattung zu beachten gibt.</p>
+<br>
+<div class="row">
+  <div class="col1d">
+<img src="whippet-760x570.webp" height="230" width="290"/>
+</div>
+<div class="col2d">
+<img src="istockphoto-149872108-612x612.jpg" height="300" width="220"/>
+</div>
+<div class="col3d">
+<img src="whippet-im-rasseportrait.jpg" height="230" width="290"/>
+</div>
+</div>
+
+<br><br><br>
+<h2 class="Übermich">Über mich</h2>
+<p>Ich heiße Josie, bin 18 Jahre alt und habe seit ca. einem halben Jahr einen Whippet Namens Luna. Wir haben sie aufgenommen als sie sechs Monate alt war 
+  und sie hat sich inzwischen schon sehr gut eingelebt. Das Zusammenleben mit zwei Katzen ist für sie auch kein Problem und sie hat sich schnell an das Leben in der Stadt gewöhnt. 
+  Einen Hund zu adoptieren ist keine leichtfertige Entscheidung und man sollte sich im Klaren darüber sein, dass ein Hund viel Zeit braucht und auch Kosten verursacht.
+   Dafür bekommt man aber auch viele glückliche Momente und Zuneigung vom Hund zurück.
+Im folgenden findet ihr einige Bilder von meinem Hund.</p>
+
+<br><br><br>
+<h2 class="Bildergalerie">Bildergalerie von meinem Hund</h2>
+<br>
+<div class="row">
+  <div class="col1">
+<img src="Luna06.jpg.jpg" alt="06" width="230" height="290"/>
+</div>
+<div class="col2">
+<img src="Luna09.jpg.jpg" alt="03" width="230" height="290"/>
+</div>
+<div class="col3">
+<img src="Luna05.jpg.jpg" alt="05" width="230" height="290"/>
+</div></div>
+
+<div class="row">
+  <div class="col1">
+<img src="Luna04.jpg.jpg" alt="04" width="230" height="290"/>
+</div>
+<div class="col2">
+<img src="Luna08.jpg.jpg" alt="08" width="230" height="290"/>
+</div>
+<div class="col3">
+<img src="Luna01.jpg.jpg" alt="01" width="230" height="290"/>
+</div></div>
+
+
+<!-- Fußzeile -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2024 Mein Blog. Alle Rechte vorbehalten.</p>
+</footer>
+
+</div>
+</div>
+
+
+<!-- Bootstrap JavaScript und jQuery (Voraussetzung für einige Bootstrap-Funktionen) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
